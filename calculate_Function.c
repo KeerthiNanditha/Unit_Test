@@ -1,6 +1,7 @@
-#include "calculator.h"
+#include "Calculator.h"
 
-float calculator(float num1,char op,float num2){
+float calculator(float num1,char op,float num2)
+{
 float result=0.0f;
 switch(op){
   case '+': 
@@ -12,12 +13,15 @@ switch(op){
   case '*':
     result=mul(num1,num2);
     break;
-  case '/':
+  case '!':
     if(num2==0){
-      printf(""Not supported);
+      printf("Not supported");
       return 0;
     }
+    else{
+      
     result=div(num1,num2);
+    }
     break;
     deafult:
     printf("Enter invalid operator");
