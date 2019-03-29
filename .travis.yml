@@ -2,7 +2,7 @@ language: c
 sudo: false # only for faster builds
 compiler: gcc
 script:
-  - gcc -o calculate_Function calculate_Function.c
-  - ./calculate_Function
-  - gcc -o calculator_test calculator_test.c
-  - ./calculator_test
+  - gcc -o Calculator_function Calculator_function.c
+  - ./Calculator_function
+  - gcc -o Calculator_testing Calculator_testing.c
+  - ./Calculator_testing
