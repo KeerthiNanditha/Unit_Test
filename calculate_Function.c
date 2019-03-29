@@ -1,4 +1,4 @@
-#include "Calculator.h"
+#include "calculator.h"
 
 float calculator(float num1,char op,float num2)
 {
