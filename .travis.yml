@@ -4,5 +4,5 @@ compiler: gcc
 script:
   - gcc -o calculate_Function calculate_Function.c
   - ./calculate_Function
-  - gcc -o Calculator_testing Calculator_testing.c
-  - ./Calculator_testing
+  - gcc -o calculator_test calculator_test.c
+  - ./calculator_test
