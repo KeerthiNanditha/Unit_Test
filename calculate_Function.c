@@ -1,7 +1,7 @@
 #include "calculator.h"
 
 float calculate(float num1,char op,float num2){
-float result=o.of;
+float result=0.0f;
 switch(op){
   case '+': 
     result=add(num1,num2);
